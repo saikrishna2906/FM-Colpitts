@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  28 MAR 2026 12:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.23)  30 MAR 2026 03:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -480,7 +480,14 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count307
 \l__pdf_internal_box=\box60
 )
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+
+LaTeX Warning: Label `fig:placeholder' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -592,52 +599,48 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 ! Argument of \@icentercr has an extra }.
 <inserted text> 
                 \par 
-l.57 ...sign, Implementation, and Analysis}\\[6pt]
-                                                  
+l.65   }\\[8pt]
+               
 ? 
 Runaway argument?
-6pt\vskip -\dbltextfloatsep 
+8pt\vskip -\dbltextfloatsep 
 ! Paragraph ended before \@icentercr was complete.
 <to be read again> 
                    \par 
-l.57 ...sign, Implementation, and Analysis}\\[6pt]
-                                                  
+l.65   }\\[8pt]
+               
 ? 
-(./main.toc)
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-4.
+(./main.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-4.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-64.
+4.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-64.
+4.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 64.
+(Font)              <10> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 64.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 64.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
-
+(Font)              <5> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -645,29 +648,24 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Overfull \hbox (9.9006pt too wide) in paragraph at lines 120--130
+))
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (9.9006pt too wide) in paragraph at lines 124--134
  [] 
  []
-
-
-Overfull \hbox (10.78961pt too wide) in paragraph at lines 164--174
- [] 
- []
-
-
-LaTeX Warning: Reference `eq:ceq' on page 1 undefined on input line 176.
-
-
-LaTeX Warning: Reference `eq:freq' on page 1 undefined on input line 183.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-ec.enc}
@@ -676,9 +674,12 @@ c/dvips/lm/lm-ec.enc}
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvip
 s/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/sha
 re/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-32.
+Overfull \hbox (10.78961pt too wide) in paragraph at lines 168--178
+ [] 
+ []
 
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+36.
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -687,56 +688,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 234.
+nput line 238.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-58.
+62.
 
 (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Underfull \hbox (badness 1406) in paragraph at lines 259--260
+Underfull \hbox (badness 1406) in paragraph at lines 263--264
 []\T1/lmr/m/n/10 (+20) Collector volt-age os-cil-lates si-nu-soidally at $\OMS/
 lmsy/m/n/10 ^^Y
  []
 
-<figs/waveform.png, id=33, 1028.84375pt x 675.52374pt>
+<figs/waveform.png, id=121, 1028.84375pt x 675.52374pt>
 File: figs/waveform.png Graphic file (type png)
 <use figs/waveform.png>
-Package pdftex.def Info: figs/waveform.png  used on input line 267.
+Package pdftex.def Info: figs/waveform.png  used on input line 271.
 (pdftex.def)             Requested size: 114.93875pt x 75.4623pt.
-
-LaTeX Warning: Reference `eq:ceq' on page 2 undefined on input line 337.
-
-
-LaTeX Warning: Reference `eq:freq' on page 2 undefined on input line 338.
-
-
-Overfull \hbox (8.04424pt too wide) in paragraph at lines 330--346
+[2{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} <./figs/waveform.png>]
+Overfull \hbox (8.04424pt too wide) in paragraph at lines 334--350
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc} <./figs/waveform.png>]
-<figs/air_coil.png, id=80, 271.0125pt x 225.84375pt>
+<figs/air_coil.png, id=163, 271.0125pt x 225.84375pt>
 File: figs/air_coil.png Graphic file (type png)
 <use figs/air_coil.png>
-Package pdftex.def Info: figs/air_coil.png  used on input line 360.
+Package pdftex.def Info: figs/air_coil.png  used on input line 364.
 (pdftex.def)             Requested size: 114.93875pt x 95.78072pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<figs/fm_colpitts.png, id=81, 1429.34pt x 753.81625pt>
+<figs/fm_colpitts.png, id=164, 1429.34pt x 753.81625pt>
 File: figs/fm_colpitts.png Graphic file (type png)
 <use figs/fm_colpitts.png>
-Package pdftex.def Info: figs/fm_colpitts.png  used on input line 384.
-(pdftex.def)             Requested size: 321.82709pt x 169.72786pt.
-
-Overfull \hbox (91.94958pt too wide) in paragraph at lines 384--385
- [][] 
- []
-
+Package pdftex.def Info: figs/fm_colpitts.png  used on input line 388.
+(pdftex.def)             Requested size: 229.8775pt x 121.23419pt.
 [3 <./figs/air_coil.png> <./figs/fm_colpitts.png>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -744,25 +727,16 @@ L3 programming layer <2024-01-22>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  817856565E1E0059186C03F9FDFEE194;2622.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 817856565E1E0059186C03F9FDFEE194;2622.
  ) 
 Here is how much of TeX's memory you used:
- 16754 strings out of 476182
- 261262 string characters out of 5795595
- 2076975 words of memory out of 5000000
- 38354 multiletter control sequences out of 15000+600000
+ 16773 strings out of 476182
+ 261505 string characters out of 5795595
+ 2080975 words of memory out of 5000000
+ 38373 multiletter control sequences out of 15000+600000
  614208 words of font info for 128 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,8n,100p,1193b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -776,10 +750,10 @@ nts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.p
 fb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (3 pages, 1606200 bytes).
+Output written on main.pdf (3 pages, 1614349 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 265 PDF objects out of 1000 (max. 8388607)
+ 218 compressed objects within 3 object streams
  56 named destinations out of 1000 (max. 500000)
- 33808 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 33960 words of extra memory for PDF output out of 35830 (max. 10000000)
 

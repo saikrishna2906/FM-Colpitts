@@ -53,16 +53,20 @@
 % ─── Title ───────────────────────────────────────────────────────────────────
 \twocolumn[%
   \centering
-  {\Large\bfseries FM Colpitts Oscillator Transmitter\\[4pt]
-   Design, Implementation, and Analysis}\\[6pt]
+ {\Large\bfseries 
+FM Colpitts Oscillator Transmitter\par
+\vspace{4pt}
+Design, Implementation, and Analysis\par
+\vspace{6pt}
+}
   {\normalsize
     Sai Krishna Bakki \quad -- \quad EE25BTECH11049\\
     Adharvan K.B  \quad -- \quad EE25BTECH11003
   }\\[8pt]
-  \begin{minipage}{\linewidth}
+  \begin{minipage}{\columnwidth}
     \tableofcontents
   \end{minipage}\\[6pt]
-  \rule{\linewidth}{0.4pt}\\[4pt]
+  \rule{\columnwidth}{0.4pt}\\[4pt]
 ]
 
 % =============================================================================
@@ -262,9 +266,9 @@ After transient simulation converges:
 \end{itemize}
 \subsection{C. Practical Waveforms}
 In Practice, We dont get our desired frequency due to parasitic capacitances of breadboard. We are getting waveform as below:
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.5\linewidth]{figs/waveform.png}
+    \includegraphics[width=0.5\columnwidth]{figs/waveform.png}
     \caption{Oscillator Waveform}
     \label{fig:placeholder}
 \end{figure}
@@ -355,9 +359,9 @@ reactance of $C_2$ at the carrier frequency:
     \item We may not receive our transmitted signal in our Theoretical Frequency so use a RTL-SDR to see at which frequency, we are transmitting the signal.
     \item To change frequency of transmitted signal, change values in tank circuit.
 \end{itemize}
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
-	\includegraphics[width=0.5\linewidth]{figs/air_coil.png}
+	\includegraphics[width=0.5\columnwidth]{figs/air_coil.png}
     \caption{Air Coil Inductor of 4-5 turns}
     \label{fig:placeholder}
 \end{figure}
@@ -379,9 +383,9 @@ Future work includes measuring the actual oscillation frequency on a spectrum
 analyser, quantifying the frequency deviation with a known audio tone, and
 designing a shielded PCB to reduce harmonic radiation.
 \section{Circuit Diagram}
-\begin{figure}[H]
+\begin{figure}[htbp]
     \centering
-    \includegraphics[width=1.4\linewidth]{figs/fm_colpitts.png}
+    \includegraphics[width=1.0\columnwidth]{figs/fm_colpitts.png}
     \caption{FM Colpitts}
     \label{fig:placeholder}
 \end{figure}
